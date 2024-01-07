@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Inter", sans-serif;
+  font-family: "Merriweather", serif;
+  font-family: "Open Sans", sans-serif;
+  font-family: "Work Sans", sans-serif;
+}
+header {
+  margin-top: 50px;
+}
+.container {
+  width: 82.5%;
+  max-width: 1320px;
+  margin: 0 auto;
+  background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
+    url("../resources/Banner Image.png") no-repeat center / cover;
+  border-radius: 16px;
+}
+
+.banner {
+  height: 530px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner-text {
+}
+
+.banner-text p {
+  color: #fff;
+  text-align: center;
+  font-family: "Merriweather";
+  font-size: 27px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.banner-text h2 {
+  color: #fff;
+  text-align: center;
+  font-family: "Merriweather";
+  font-size: 62px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 95px;
+  width: 100%;
+  max-width: 530px;
+  margin: 0 auto;
+}
