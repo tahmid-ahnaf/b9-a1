@@ -243,18 +243,20 @@ p {
 }
 
 .best-offer-text p,
-.best-offer-description p, .portfolio-heading p {
+.best-offer-description p,
+.portfolio-heading p,
+.newsletter-content p {
   color: rgba(7, 2, 17, 0.6);
   font-family: Inter;
   font-size: 17px;
   font-style: normal;
   font-weight: 400;
-  line-height: 32px;
+  line-height: 25px;
 }
 
 .best-offer-text p,
-.best-offer-description p{
-    max-width: 330px;
+.best-offer-description p {
+  max-width: 330px;
 }
 
 .best-offer-text * {
@@ -279,6 +281,7 @@ p {
   flex-wrap: wrap;
   justify-content: space-between;
   row-gap: 20px;
+  flex-grow: 1;
 }
 
 .portfolio-heading h3 {
@@ -290,10 +293,11 @@ p {
   line-height: normal;
 }
 
-.portfolio-heading h2 {
+.portfolio-heading h2,
+.newsletter-content h2 {
   color: #070211;
   font-family: Merriweather;
-  font-size: 48px;
+  font-size: 40px;
   font-style: normal;
   font-weight: 900;
   line-height: normal;
@@ -304,9 +308,73 @@ p {
   height: 360.4px;
   border-radius: 16px;
 }
-.portfolio-heading *{
-    margin-bottom: 20px;
+.portfolio-heading * {
+  margin-bottom: 20px;
 }
-.portfolio-heading p{
-    max-width: 760px;
+.portfolio-heading p {
+  max-width: 760px;
 }
+
+/* newsletter section */
+
+.newsletter-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 16px;
+  background: rgba(255, 0, 0, 0.05);
+  gap: 30px;
+  padding: 65px 0px;
+}
+
+.newsletter-content p {
+  max-width: 760px;
+  text-align: center;
+}
+
+.newsletter-content img{
+    width: 127px;
+    height: 127px;
+}
+form {
+  width: 45%;
+  display: flex;
+  
+}
+
+form input {
+  border: none;
+  outline: none;
+  padding: 5px 5px;
+}
+
+input[type="email"] {
+  flex-grow: 1;
+  padding: 25px 30px;
+  border-radius: 50px 0px 0px 50px;
+}
+
+input[type="email"]::placeholder {
+  color: rgba(7, 2, 17, 0.3);
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+input[type="submit"] {
+  border-radius: 0px 50px 50px 0px;
+  background: #f00;
+  cursor: pointer;
+  color: #fff;
+  text-align: center;
+  font-family: Inter;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  padding: 24px 40px;
+}
+
+
