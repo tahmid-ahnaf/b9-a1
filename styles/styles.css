@@ -99,24 +99,27 @@ header {
   height: 390px;
 }
 
-.midnight-party-content a {
+.midnight-party-content a, .event-schedule-content a {
   text-decoration: none;
   display: inline-block;
-  background-color: grey;
   border-radius: 4px;
   padding: 10px 20px;
-  color: #fff;
   font-family: Inter;
   font-size: 20px;
   font-style: normal;
   font-weight: 700;
   margin-top: 10px;
-}
-
-.midnight-party-content a:hover {
+  transition: all 0.8s;
   background-color: #fff;
   color: grey;
 }
+
+.midnight-party-content a:hover, .event-schedule-content a:hover {
+    color: #fff;
+    background-color: grey;
+}
+
+
 
 /* discount section */
 
@@ -130,7 +133,7 @@ header {
   color: #070211;
   text-align: center;
   font-family: Inter;
-  font-size: 41px; 
+  font-size: 41px;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
@@ -159,7 +162,43 @@ header {
   margin-bottom: 30px;
 }
 
-.discount-content img{
-    width: 680px;
-    height: 425px;
+.discount-content img {
+  width: 680px;
+  height: 425px;
+}
+
+.event-schedule-bg {
+  background: linear-gradient(
+    180deg,
+    rgba(255, 0, 0, 0.1) 0%,
+    rgba(255, 0, 0, 0) 100%
+  );
+}
+
+.event-schedule-content {
+  text-align: center;
+  padding: 85px 0px;
+}
+
+.event-schedule-content span,p {
+  color: #f00;
+  font-family: Inter;
+  font-size: 27px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 56px;
+}
+
+.event-schedule-content span{
+    margin-right: 10px ;
+}
+
+.event-schedule-content p {
+  color: #070211;
+}
+
+.event-schedule-content a{
+    color: #FFF;
+    background-color: #F00;
+    margin-top: 40px;
 }
