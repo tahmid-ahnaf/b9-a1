@@ -8,6 +8,10 @@ body {
   font-family: "Open Sans", sans-serif;
   font-family: "Work Sans", sans-serif;
 }
+
+section {
+  margin: 80px 0px;
+}
 header {
   margin-top: 50px;
 }
@@ -15,9 +19,6 @@ header {
   width: 82.5%;
   max-width: 1320px;
   margin: 0 auto;
-  background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
-    url("../resources/Banner Image.png") no-repeat center / cover;
-  border-radius: 16px;
 }
 
 .banner {
@@ -26,9 +27,9 @@ header {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-}
-
-.banner-text {
+  background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
+    url("../resources/Banner Image.png") no-repeat center / cover;
+  border-radius: 16px;
 }
 
 .banner-text p {
@@ -53,3 +54,68 @@ header {
   max-width: 530px;
   margin: 0 auto;
 }
+
+/* midnight party */
+
+.midnight-party-bg {
+  background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
+    url("../resources/Vectorrr.png") no-repeat center / cover;
+  border-radius: 16px;
+  height: 500px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.midnight-party-content {
+  width: 50%;
+}
+
+.midnight-party-content * {
+  margin-bottom: 5px;
+}
+
+.midnight-party-content h2 {
+  color: #fff;
+  font-family: Merriweather;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 88px;
+  letter-spacing: 7.04px;
+}
+
+.midnight-party-content p {
+  color: rgba(255, 255, 255, 0.8);
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.midnight-party-img img {
+  width: 270px;
+  height: 390px;
+}
+
+.midnight-party-content a {
+  text-decoration: none;
+  display: inline-block;
+  background-color: grey;
+  border-radius: 4px;
+  padding: 10px 20px;
+  color: #fff;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  margin-top: 10px;
+}
+
+.midnight-party-content a:hover{
+    background-color: #fff;
+    color: grey
+}
+
+
