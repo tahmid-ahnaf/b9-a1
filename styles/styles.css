@@ -207,22 +207,22 @@ p {
 
 /* best offer section */
 
-.best-offer-content{
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    gap: 60px;
+.best-offer-content {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 60px;
 }
 
-.best-offer-description{
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
+.best-offer-description {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 
-.best-offer-description img{
-    width: 120px;
-    height: 120px;
+.best-offer-description img {
+  width: 120px;
+  height: 120px;
 }
 .best-offer-text h3 {
   color: #f00;
@@ -242,28 +242,71 @@ p {
   line-height: normal;
 }
 
-.best-offer-text p, .best-offer-description p {
+.best-offer-text p,
+.best-offer-description p, .portfolio-heading p {
   color: rgba(7, 2, 17, 0.6);
   font-family: Inter;
   font-size: 17px;
   font-style: normal;
   font-weight: 400;
   line-height: 32px;
-  max-width: 330px;
 }
 
-.best-offer-text *{
-    margin-bottom: 5px;
+.best-offer-text p,
+.best-offer-description p{
+    max-width: 330px;
 }
 
-.best-offer-rounded img{
-    width: 280px;
-    height: 280px;
-    padding: 20px;
-    
+.best-offer-text * {
+  margin-bottom: 5px;
 }
 
-.round{
-    border: 15px solid #F00;
-    border-radius: 50%;
+.best-offer-rounded img {
+  width: 280px;
+  height: 280px;
+  padding: 20px;
+}
+
+.round {
+  border: 15px solid #f00;
+  border-radius: 50%;
+}
+
+/* portfolio section */
+
+.portfolio-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  row-gap: 20px;
+}
+
+.portfolio-heading h3 {
+  color: #f00;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.portfolio-heading h2 {
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  text-transform: capitalize;
+}
+.product img {
+  width: 360.4px;
+  height: 360.4px;
+  border-radius: 16px;
+}
+.portfolio-heading *{
+    margin-bottom: 20px;
+}
+.portfolio-heading p{
+    max-width: 760px;
 }
