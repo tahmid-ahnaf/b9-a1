@@ -78,7 +78,7 @@ header {
 .midnight-party-content h2 {
   color: #fff;
   font-family: Merriweather;
-  font-size: 64px;
+  font-size: 55px;
   font-style: normal;
   font-weight: 900;
   line-height: 88px;
@@ -88,7 +88,7 @@ header {
 .midnight-party-content p {
   color: rgba(255, 255, 255, 0.8);
   font-family: Inter;
-  font-size: 18px;
+  font-size: 15px;
   font-style: normal;
   font-weight: 400;
   line-height: 30px;
@@ -113,9 +113,53 @@ header {
   margin-top: 10px;
 }
 
-.midnight-party-content a:hover{
-    background-color: #fff;
-    color: grey
+.midnight-party-content a:hover {
+  background-color: #fff;
+  color: grey;
 }
 
+/* discount section */
 
+.discount-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.discount-content h2 {
+  color: #070211;
+  text-align: center;
+  font-family: Inter;
+  font-size: 41px; 
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 50px;
+}
+
+.discount-content p {
+  color: #f00;
+  text-align: center;
+  font-family: Inter;
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-bottom: 10px;
+}
+
+.discount-content h1 {
+  color: #f00;
+  text-align: center;
+  font-family: Inter;
+  font-size: 75px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 30px;
+}
+
+.discount-content img{
+    width: 680px;
+    height: 425px;
+}
