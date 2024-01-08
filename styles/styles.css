@@ -398,10 +398,20 @@ p {
   line-height: normal;
   text-transform: capitalize;
 }
+
 .product img {
   width: 360.4px;
   height: 360.4px;
   border-radius: 16px;
+  -webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
+.product img:hover {
+	-webkit-transform: scale(1.05);
+	transform: scale(1.05);
 }
 .portfolio-heading * {
   margin-bottom: 20px;
